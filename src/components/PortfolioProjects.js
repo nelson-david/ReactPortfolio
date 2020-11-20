@@ -10,7 +10,7 @@ const PortfolioProjects = () => {
 		axios({
 			method:"GET",
 			withCredentials: true,
-			url: "http://localhost:5000/api/getAllProject",
+			url: "https://chika-api.herokuapp.com/api/getAllProject",
 		}).then((res) => {
 			setAllProject(res.data.allProject);
 		});
@@ -33,7 +33,7 @@ const PortfolioProjects = () => {
 					            			</div>
 					            			<img 
 					            				src=
-					            				{`http://localhost:5000/static/img/${value.projectImg}`}
+					            				{`https://chika-api.herokuapp.com/static/img/${value.projectImg}`}
 					            				alt="project"
 					            				className=
 					            				"card-img-top img-fluid w-100 project_img" />

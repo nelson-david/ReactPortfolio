@@ -15,7 +15,7 @@ const Header = () => {
           <br />
           <br />
           <p>
-            <span>It's fun learning Programming 😜</span>
+            <span>It's fun learning Programming 😜😜😜</span>
           </p>
         </div>
       </div>

@@ -14,7 +14,7 @@ const CourseOutline = (props) => {
 		axios({
 			method:"GET",
 			withCredentials: true,
-			url: "http://localhost:5000/api/getCourseOutline",
+			url: "https://chika-api.herokuapp.com/api/getCourseOutline",
 		}).then((res) => {
 			console.log(res.data.courseOutline)
 			setCourseOutline(res.data.courseOutline);
@@ -36,7 +36,7 @@ const CourseOutline = (props) => {
 									<div className="card course_card">
 										<img 
 											src=
-											{`http://localhost:5000/static/img/${value.courseImg}`}
+											{`https://chika-api.herokuapp.com/static/img/${value.courseImg}`}
 											className="card-img-top course_img"
 											alt="230032"
 										/>

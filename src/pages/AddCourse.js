@@ -31,7 +31,7 @@ const AddCourse = () => {
 			contentType: false,
 			processData: false,
 			withCredentials: true,
-			url: "http://localhost:5000/api/addCourseOutline",
+			url: "https://chika-api.herokuapp.com/api/addCourseOutline",
 		}).then((res) => {
 			console.log(res.data);
 		});

@@ -34,7 +34,7 @@ const AddProject = () => {
 			contentType: false,
 			processData: false,
 			withCredentials: true,
-			url: "http://localhost:5000/api/addProject",
+			url: "https://chika-api.herokuapp.com/api/addProject",
 		}).then((res) => {
 			console.log(res.data);
 		});
